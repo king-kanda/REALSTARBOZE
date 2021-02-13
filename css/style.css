@@ -61,7 +61,7 @@ body{
     
     padding-bottom: 8rem;
     width:100%;
-    background: url("/img/banner.jpg");
+    background: url("img/banner.jpg");
     background-size: cover;
     background-position:  center center;
     background-repeat: no-repeat;
@@ -157,7 +157,7 @@ p{
         display: table-header-group;  
         padding-bottom: 4rem;
         width:100%;
-        background: url("/img/sub-banner.jpg");
+        background: url("img/sub-banner.jpg");
         background-size: cover;
         background-position:  center center;
         background-repeat: no-repeat;
@@ -273,7 +273,7 @@ p{
         display: table;
         padding-bottom: 8rem;
         width:100%;
-        background: url("/img/sub-banner.jpg");
+        background: url("img/sub-banner.jpg");
         background-size: cover;
         background-position:  center center;
         background-repeat: no-repeat;
