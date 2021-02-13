@@ -1,0 +1,331 @@
+/*universal styles that apply to all devices*/
+.navbar{
+    background-color:#cd8032f1;
+    color: aliceblue;
+}
+a.navbar-brand{
+    color:white;
+}
+a{
+    color:white;
+}
+.portfolio-txt{
+    font-size: 20px;
+}
+.fa-check-circle{
+    color: #cd7f32;
+    font-size: 20px;
+    display: flex;
+    align-content: center;
+}
+.fa .fa-facebook{
+    font-size: 20px;
+}
+.footer{
+    background-color:  #cc751e;
+    color: white;
+    padding: 1rem;
+}
+a.list-group-item{
+    background-color: #cc751e;
+    border:0px;
+    color: white;
+
+    
+}
+div.footer-note{
+    color: white;
+}
+.card-img-top{
+    height: 75vh;
+    width: auto;
+}
+.social-social-icon{
+    background-color: #cc751e;
+    color: white;
+    font-size: 25px;
+    display: none;
+}
+/*large screen devices*/
+body{
+    background-color: black;
+}
+.container{
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+.mastheader{
+    min-height: 3rem;
+    position: relative;
+    display: table;
+    
+    padding-bottom: 8rem;
+    width:100%;
+    background: url("/img/banner.jpg");
+    background-size: cover;
+    background-position:  center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.mast-header{
+    font-size: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:lighter;
+    color: aliceblue;
+}
+.mast-header:hover{
+    color: #cd7f32;
+}
+
+
+.mast-text{
+    font-size: 15px;
+    font-family: sans-serif;
+    color:azure;
+    
+}
+
+.sub-banner{
+    height:25vh;
+    width: auto;
+}
+
+.mast-button{
+    color: aliceblue;
+    background:#cd7f32;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    border-radius:25px;
+}
+.about-button,.mast-button:hover{
+    background: white;
+    color: #cd7f32;
+    font-weight: bold;
+
+}
+
+.card{
+    border-radius: 0px;
+    border-color: black;
+    border: 0px;
+    background-color: black;
+} 
+
+
+.qoute-sec{
+    color:aliceblue;
+}
+
+/*something will go here**/
+
+p{
+    color:white;
+    font-family:sans-serif;
+    font-variant: normal;
+    font-size: 12px;
+}
+.about-tittle{
+    /*moore will be changed*/
+    color:white;
+    font-family: serif;
+    padding: 1rem;
+    text-decoration: underline;
+}
+.card-footer{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #cd7f32;
+}
+.navbar-nav {
+ display: flex;
+ justify-content:flex-end;
+}
+
+
+@media(max-width:576px){
+
+    .container{
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+    }
+    .mastheader{
+        min-height: 2rem;
+        position: relative;
+        display: table-header-group;  
+        padding-bottom: 4rem;
+        width:100%;
+        background: url("/img/sub-banner.jpg");
+        background-size: cover;
+        background-position:  center center;
+        background-repeat: no-repeat;
+        height: 25vh;
+    }
+    
+    .mast-header{
+        font-size: 30px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight:lighter;
+        color: aliceblue;
+        display: flex;
+        justify-content: center;
+    }
+    .mast-header:hover{
+        color: #cd7f32;
+    }
+    
+    .mast-text{
+        display: none;
+        font-size: 10px;
+        font-family: sans-serif;
+        color:azure;
+        
+    }
+    
+    .sub-banner{
+        display: none;
+        height:25vh;
+        width: auto;
+    }
+    
+    .mast-button{
+        color: aliceblue;
+        background:#cd7f32;
+        display:flex;
+        justify-content:center;
+        width: auto;
+        border-radius:25px;
+        
+    }
+    .about-button,.mast-button:hover{
+        background: white;
+        color: #cd7f32;
+        font-weight: bold;
+    
+    }
+    
+    .card{
+        border-radius: 0px;
+        border-color: black;
+        border: 0px;
+    } 
+    .card-img-top{
+        height: auto;
+        width: auto;
+    
+    }
+    .qoute-sec{
+        color:aliceblue;
+    }
+    
+    
+    p{
+        color:white;
+        font-family:sans-serif;
+        font-variant: normal;
+        font-size: 10px;
+    }
+    .about-tittle{
+        /*moore will be changed*/
+        color:white;
+        font-family: serif;
+        padding: 1rem;
+        text-decoration: underline;
+    }
+    .card-footer{
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #cd7f32;
+    }
+    .container-fluid{
+        background-color:#cd7f32;
+        color: whitesmoke;
+        margin: 0%;
+    }
+    .about-txt
+    {
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .portfolio-txt{
+        font-size: 25px;
+        display: flex;
+        justify-content: left;
+
+    }
+    .footer{
+        display: none;
+    }
+    .social-icon{
+        font-size: 25px;
+        
+    }
+
+}
+
+@media(max-width:768px)(min-width:580px;){
+
+    .mastheader{
+        min-height: 2rem;
+        position: relative;
+        display: table;
+        padding-bottom: 8rem;
+        width:100%;
+        background: url("/img/sub-banner.jpg");
+        background-size: cover;
+        background-position:  center center;
+        background-repeat: no-repeat;
+        height: 50vh;
+    }
+    
+    .mast-header{
+        font-size: 40px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight:lighter;
+        color: aliceblue;
+    }
+    .mast-header:hover{
+        color: #cd7f32;
+    }
+    
+    
+    .mast-text{
+        font-size: 15px;
+        font-family: sans-serif;
+        color:azure;
+        
+    }
+    
+    .sub-banner{
+        height:25vh;
+        width: auto;
+    }
+    
+    .mast-button{
+        color: aliceblue;
+        background:#cd7f32;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+        border-radius:25px;
+    }
+    .about-button,.mast-button:hover{
+        background: white;
+        color: #cd7f32;
+        font-weight: bold;
+    
+    }
+    .card-img-top{
+        height: 25vh;
+        width: auto;
+    
+    }
+    .social-icon{
+        font-size: 25px;
+        display: none;
+    }
+
+}

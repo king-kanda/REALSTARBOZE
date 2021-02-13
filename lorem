@@ -1,0 +1,52 @@
+photography
+
+
+Videography
+
+
+graphic editting
+
+
+Video editting
+
+
+video directing
+
+
+
+           <div class="container-fluid footer">
+               
+                   <div class="row ">
+                       <div class="col-md-4 text-left" id="footer-menu">
+                           <!--this is where the footer menu goes-->
+                           <li class="">
+                               home
+                           </li>
+                           <li class="">
+                            about
+                           </li>
+                           <li class="">
+                             categories
+                           </li>
+                           <li class="">
+                            portfolio
+                           </li>
+                           <li class="">
+                            get qoute
+                           </li>
+                       </div>
+
+                       <div class="col-md-4 text-left" id="contact-info">
+                           <!--footer contact section -->
+    
+                       </div>
+
+                       <div class="col-md-4 " id="empty-section">
+
+                       </div>
+                   </div>
+                   <div class="">
+                       <!--end page social buttins-->
+                   </div>
+            
+           </div>
