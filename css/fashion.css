@@ -41,7 +41,7 @@ body{
     
     padding-bottom: 8rem;
     width:100%;
-    background: url("/img/good-faces-T4p72-fc2_A-unsplash.jpg");
+    background: url("img/good-faces-T4p72-fc2_A-unsplash.jpg");
     background-size: cover;
     background-position:  center center;
     background-repeat: no-repeat;
@@ -101,7 +101,7 @@ body{
         display: table-header-group;  
         padding-bottom: 4rem;
         width:100%;
-        background: url("/img/good-faces-T4p72-fc2_A-unsplash.jpg");
+        background: url("img/good-faces-T4p72-fc2_A-unsplash.jpg");
         background-size: cover;
         background-position:  center center;
         background-repeat: no-repeat;
@@ -170,7 +170,7 @@ body{
         display: table;
         padding-bottom: 8rem;
         width:100%;
-        background: url("/img/good-faces-T4p72-fc2_A-unsplash.jpg");
+        background: url("img/good-faces-T4p72-fc2_A-unsplash.jpg");
         background-size: cover;
         background-position:  center center;
         background-repeat: no-repeat;
